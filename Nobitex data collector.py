@@ -6,7 +6,7 @@ import csv
 
 field_names = ['date','price']
 
-with open('1MinPrice.csv', 'a', newline='') as csv_file:
+with open('BTCUSDT1MinPrice.csv', 'a', newline='') as csv_file:
 
     writerObj = csv.writer(csv_file)
     # writerObj.writerow(['date','price'])
